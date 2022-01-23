@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="mt-5">
+  <div class="text-center">
+  <img src="{% static 'core/images/pic1.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+</div>
+<div class="mt-5 text-white mx-5 text-justify ">
+
+  <h1 class="font-weight-bold st-font">Hello,</h1>
+  <div class="px-4" style="line-height:2rem;">
+    <p style ="text-indent:100px;">I am <b class="text-warning">Sophia </b>Having 5 year of  full-stack web devlopment experince for global
+      businesses,  I offer the Technical expertise you are seeking for  your web developer position.</p>
+      <p> Since earnig my bachelor's degree in the internet and web development from USA University , I have served as a Web developer at
+        <b class="text-warning">GS Technology </b>,one of the biggest premier digital marketing and web development firm. In this position , I have
+        led Web development projects.
+      </p>
+</div>
+<div class="text-center">
+<a href="" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+<a href="" class="btn btn-outline-info my-3">Contact</a>
+</div>
+
+</div>
+{% endblock content %}
